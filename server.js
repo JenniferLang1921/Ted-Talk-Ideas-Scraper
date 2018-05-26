@@ -27,7 +27,7 @@ app.set('view engine', 'handlebars');
 // Database Configuration with Mongoose
 // ---------------------------------------------------------------------------------------------------------------
 // Connect to localhost if not a production environment
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://admin:admin@ds237700.mlab.com:37700/heroku_r8l8h1xd";
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
