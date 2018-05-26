@@ -1,2 +1,2 @@
-# Business-Insider-Web-Scraper
-Business Insider Web Scraper
+# Ted Talks Ideas Article Scraper
+
