@@ -6,8 +6,8 @@
 
     <!-- Article Drop Down -->
     <li>
-      <div style="background-color: white;" class="collapsible-header grey lighten-2">
-        <i class="material-icons">language</i> <b>{{updated}}</b>
+      <div style="background-color: white;" class="collapsible-header blue darken-4 grey-text text-lighten-4">
+          <b>{{updated}}</b>  <i class="material-icons right grey-text text-lighten-4">add</i>
         <div style="clear: left; line-height: 110%; padding-bottom: 10px;"><b>{{title}}</b></div>
       </div>
       <div class="collapsible-body" style="background-color: white;">
@@ -25,7 +25,7 @@
 
     <!-- Add Comments Drop Down -->
     <li>
-      <div class="collapsible-header"><i class="material-icons">comment</i>Add a Comment</div>
+      <div class="collapsible-header"><i class="material-icons">mood</i>Add a Comment</div>
       <div class="collapsible-body" style="background-color: white;">
 
         <form id="form-add-{{_id}}" action="add/comment/{{_id}}" method="post" style="background-color: white;">
@@ -44,7 +44,7 @@
             <div class="input-field col s2"></div>
             <div class="input-field col s8">
               <textarea id="comment_box" name="comment" class="materialize-textarea"></textarea>
-              <label for="comment_box">Your Reaction:</label>
+              <label for="comment_box">Your Comment:</label>
             </div>
           </div>
 
@@ -64,7 +64,7 @@
 
     <!-- View Comments Drop Down -->
     <li>
-      <div class="collapsible-header"><i class="material-icons">thumbs_up_down</i>View Comments</div>
+      <div class="collapsible-header"><i class="material-icons">style</i>View Comments</div>
       <div class="collapsible-body" style="background-color: white;">
       
         {{!-- Check if the article has comments --}}
@@ -82,7 +82,7 @@
                 {{!-- Add a Delete Button --}}
                 <span class="badge">
                   <form id="form-delete-{{_id}}" action="remove/comment/{{_id}}" method="post">
-                    <input class="btn-small delete-comment-button" data-id="{{_id}}" type="submit" value="Delete" style="color: white; background-color: red; border-color: red;">
+                    <input class="btn-small delete-comment-button #1a237e indigo darken-4" data-id="{{_id}}" type="submit" value="Delete" style="color: white; background-color: red; border-color: red;">
                   </form>
                 </span>
 
@@ -97,7 +97,7 @@
         
         {{!-- No comments, so display message --}}
         {{else}}
-          <p>No Comments Yet :( </p>
+          <p>No Comments Yet </p>
         {{/if}}
             
         
