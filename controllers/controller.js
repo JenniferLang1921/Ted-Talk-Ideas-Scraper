@@ -104,7 +104,7 @@ router.get('/scrape', function(req, res) {
           // Due to async, moongoose will not save the articles fast enough for the duplicates within a scrape to be caught
           if(titlesArray.indexOf(result.title) == -1){
 
-            // Push the saved item to our titlesArray to prevent duplicates thanks the the pesky Onion...
+            // Push the saved item to our titlesArray to prevent duplicates ...
             titlesArray.push(result.title);
 
             // Only add the entry to the database if is not already there
