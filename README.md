@@ -1,6 +1,6 @@
 # Ted Talks Ideas Article Scraper
 
-![TedTalkIdeasArticleScraper](https://github.com/JenniferLang1921/Ted-Talk-Ideas-Scraper/blob/master/public/assets/images/screenshot.png)
+![TedTalkIdeasArticleScraper](https://github.com/JenniferLang1921/Web-Developer-Portfolio/blob/master/assets/images/ted-talks.png)
 
 ## Description
 
@@ -8,7 +8,7 @@ Ted Talks Ideas Scraper is a website that allows users to scrape the website htt
 
 Backend Technologies Used:  Node.js, Express, Cheerio.js Mongo Database, Mongoose, Body-Parser, Request, Morgan, MVC File Structure, Heroku
 
-Frontend Technologies Used: Javascript, Jquery, Materialize, HTMl5, Handlebars
+Frontend Technologies Used: Javascript, Jquery, Materialize, HTML5, Handlebars
 
 ## Demo
 
