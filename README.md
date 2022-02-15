@@ -10,9 +10,7 @@ Backend Technologies Used:  Node.js, Express, Cheerio.js Mongo Database, Mongoos
 
 Frontend Technologies Used: Javascript, Jquery, Materialize, HTML5, Handlebars
 
-## Demo
 
- Check out this website Ted Talks Ideas Article Scraper at https://ted-talks-ideas-article-scrape.herokuapp.com/
 
 ## Installation
 
